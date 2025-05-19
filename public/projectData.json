@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "Cosmic-RMS",
+    "title": "Cosmic RMS",
+    "description": "A comprehensive trading platform enabling management of Net Positions, Market Watch, Order Logs, and trading strategies.",
+    "companyProject": true,
+    "companyNote": "Built for internal company use - proprietary trading system with restricted access",
+    "videoUrl": "/project/cosmic/cosmicrec.mp4",
+    "images": [
+      {
+        "url": "/project/cosmic/image.png",
+        "alt": "Dashboard Overview"
+      },
+      {
+        "url": "/project/cosmic/image2.png",
+        "alt": "Market Watch and Net Positions"
+      }
+    ],
+    "technologies": [
+      "React",
+      "Redux",
+      "Ag Grid",
+      "Chart.js",
+      "ECharts",
+      "Websockets",
+      "Python",
+      "SCSS"
+    ],
+    "content": [
+      {
+        "title": "Overview",
+        "descriptions": [
+          "Developed a Risk Management System for HFT.",
+          "Provides real-time data streams for effective trading decisions.",
+          "Enables comprehensive management of net positions, market watch, and order logs."
+        ]
+      },
+      {
+        "title": "Features",
+        "descriptions": [
+          "Customizable dashboards with real-time analytics.",
+          "Interactive tables and dynamic data visualizations.",
+          "Real-time graphs including time series, line charts, and heatmaps.",
+          "Dynamic PDF report generation for trading insights.",
+          "Role-based UI rendering with multiple user roles."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "Algo-Trading",
+    "title": "Algo-Trading (Crypto)",
+    "description": "Developed a low-latency, multi-component trading system integrating Deribit’s FIX 4.4 API and FIX Protocol using Python. The system supports market data feeds, order management, and internal routing via MQTT, Redis, and WebSocket. Designed for extensibility and speed, it’s optimized for high-frequency trading and automated bot infrastructure.",
+    "githubUrl": "https://github.com",
+    "images": [
+      {
+        "url": "/project/hft/hftImg.jpeg",
+        "alt": "Algo-Trading Image"
+      }
+    ],
+    "technologies": [
+      "Python",
+      "FIX 4.4",
+      "MQTT",
+      "Redis",
+      "WebSocket",
+      "Multithreading",
+      "Signal Handling",
+      "Low-latency Architecture",
+      "HFT Infrastructure",
+      "SharedArray"
+    ],
+    "content": [
+      {
+        "title": "Overview",
+        "descriptions": [
+          "Developed a low-latency, multi-component trading system integrating Deribit’s FIX 4.4 API and FIX Protocol using Python.",
+          "The system supports market data feeds, order management, and internal routing via MQTT, Redis, and WebSocket.",
+          "Engineered for extensibility and speed, it’s optimized for high-frequency trading and scalable automated trading bots."
+        ]
+      },
+      {
+        "title": "Features",
+        "descriptions": [
+          "FIX Protocol (FIX 4.4) for market/order message handling.",
+          "MQTT used for internal order routing and event messaging.",
+          "Redis stores and serves contract metadata for real-time operations.",
+          "WebSocket with SharedArray ensures high-throughput market data feeds.",
+          "Threaded architecture with POSIX-style signal-based reload and graceful shutdown.",
+          "Supports market and limit order placement, modification, cancellation, and status tracking.",
+          "Designed for low-latency execution and extensible token-based subscription management."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "Tradex",
+    "title": "Tradex (Fyers)",
+    "description": "Developed a web-based trading system using Python, Django, and Celery, integrated with Fyers API. The platform enables live trading, tracks real-time price updates (LTP), and manages asynchronous tasks for smooth trading operations.",
+    "githubUrl": "https://github.com/vc8bp/chess",
+    "liveUrl": "https://cchess.netlify.app/",
+    "videoUrl": "",
+    "images": [
+      {
+        "url": "/project/chess/moves.png",
+        "alt": "chess game Demo"
+      },
+      {
+        "url": "/project/chess/start.png",
+        "alt": "chess game Demo"
+      },
+      {
+        "url": "/project/chess/threat.png",
+        "alt": "chess game Demo"
+      },
+      {
+        "url": "/project/chess/board.png",
+        "alt": "chess game Demo"
+      }
+    ],
+    "technologies": [
+      "Python",
+      "Django",
+      "Celery",
+      "Redis",
+      "Fyers API",
+      "Real-time LTP Tracking",
+      "REST API",
+      "Asynchronous Task Processing",
+      "WebSocket"
+    ],
+    "content": [
+    {
+      "title": "Overview",
+      "descriptions": [
+        "Built a Django-based trading platform with real-time trading capability using Fyers API.",
+        "Integrated Celery for handling asynchronous operations like order placement, monitoring, and updates.",
+        "Utilized Redis as a message broker for Celery and as a real-time data cache for performance."
+      ]
+    },
+    {
+      "title": "Features",
+      "descriptions": [
+        "Live LTP tracking and display using WebSockets or polling.",
+        "Place, modify, and cancel orders directly from the web interface.",
+        "Asynchronous order execution using Celery to ensure smooth user experience.",
+        "Real-time order and trade status updates.",
+        "Scalable and modular codebase suitable for automation and strategy integration.",
+        "Secure authentication and token management for Fyers API."
+      ]
+    }
+  ]
+  }
+]
