@@ -1,11 +1,22 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt, FaFolder } from 'react-icons/fa';
 import Link from 'next/link';
-import projects from "@/public/project.json"
+import rawProjects  from "@/public/project.json"
 
+
+interface Project {
+  title: string;
+  description: string;
+  tags: string[];
+  link: {
+    live?: string;
+    github?: string;
+  };
+}
+const projects = rawProjects as Project[];
 
 const OtherProjects = () => {
-  return !projects.length ? null: (
+  return !projects.length ? null : (
     <section className=" text-foreground py-20 lg:px-20 md:px-10 px-5 text-center container mx-auto">
       <h2 className="text-3xl md:text-4xl font-bold text-muted">Other Noteworthy Projects</h2>
       <Link href="/archive" className="text-primary text-sm md:text-base block mt-2">view the archive</Link>
