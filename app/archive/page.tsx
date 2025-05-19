@@ -1,7 +1,21 @@
 import React from 'react';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
-import archiveProjects from "@/public/project.json"
+import archiveProjectsRaw from "@/public/project.json"
 
+
+interface Project {
+  title: string;
+  description?: string; // Optional for this view
+  tags: string[];
+  year: string;
+  madeAt: string;
+  link: {
+    live?: string;
+    github?: string;
+  };
+}
+
+const archiveProjects = archiveProjectsRaw as Project[];
 
 const Archive = () => {
   return (

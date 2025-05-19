@@ -11,13 +11,13 @@ const About = () => {
                         About Me
                     </p>
                     <p className="text-muted mt-4 text-sm md:text-base max-w-2xl">
-                        Hello! My name is Gaurav and I’m a Software Developer with 1+ years of experience building scalable and innovative web applications. I'm passionate about solving complex problems and constantly improving my skills to deliver high-quality solutions.
+                        {`Hello! My name is Gaurav and I’m a Software Developer with 1+ years of experience building scalable and innovative web applications. I'm passionate about solving complex problems and constantly improving my skills to deliver high-quality solutions.`}
                     </p>
                     <p className="text-muted mt-4 text-sm md:text-base max-w-2xl">
                         I specialize in full-stack development using Python (Django), React, and PostgreSQL, and have hands-on experience with cloud platforms, containerization, and DevOps practices. My recent projects include a Risk Management System with real-time data streaming and a dynamic web app for precious metal trading.
                     </p>
                     <p className="text-muted mt-4 text-sm md:text-base max-w-2xl">
-                        Currently, I’m focused on deepening my backend expertise while exploring advanced concepts in real-time systems and system design.
+                        {`Currently, I’m focused on deepening my backend expertise while exploring advanced concepts in real-time systems and system design.`}
                     </p>
                     <p className="text-primary font-semibold mt-6">Technologies I work with:</p>
                     <ul className="grid grid-cols-2 gap-2 mt-2 text-muted text-sm md:text-base">
